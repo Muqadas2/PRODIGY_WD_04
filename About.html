@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <style>
+      
+        @font-face {
+            font-family: myfont;
+            src: url(39a2c7f346d5cfae7045aeb2fb50d9ad.ttf);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            top:0;
+        }
+        body{
+            width: 100%;
+            height:100vh;
+            border: none;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: #01f9c6;
+        }
+        .back{
+            width: 100%;
+            height: 13vh;
+            background-color: transparent;
+        }
+        .back svg{
+              width: 50px;
+              height: 50px;
+              left: 40%;
+              color: black;
+              padding:20px;
+              margin:20px 0px 50px 20px;
+              border-radius: 3px;
+        }
+        .container{
+            width: 100%;
+            height: auto;
+            display:flex;
+            top: 35%;
+            color: #ffffff;
+            position: absolute;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        p{
+            font-size:22px;
+            text-align: center;
+            color: #000;
+        }
+        .btn {
+          margin: 40px;
+          padding: 15px 40px;
+          border: none;
+         outline: none;
+         color: #FFFfff;
+         background-color: #000;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+   
+        font-size: 22px;
+        
+       }
+       .btn:hover{
+        background-color: #0b977b;
+       }
+ 
+   
+  
+
+        
+        h1{
+            font-family: "myfont";
+            gap:50px;
+            color: #000;
+        }
+
+
+    </style>
+</head>
+<body>
+  <div class="back">
+    <a href="structure.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg></a>
+
+</div>
+    <div class="container">
+        <h1>About Me</h1>
+            <p>
+                I am a software engineering student at <span>NUST</span> with a passion for coding and a desire to contribute to the field of technology. I am an enthusiastic learner, 
+                always eager to acquire new knowledge and skills.
+                As a front-end developer, I am proficient in various programming languages, with a particular fondness for Python due to its extensive libraries.
+                To enhance my problem-solving skills, I regularly tackle challenges on LeetCode. Additionally, I actively participate in international hackathons to gain practical experience and stay updated with emerging technologies.
+            </p>
+            <button onclick="resumeOpener()" class="btn">Resume</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

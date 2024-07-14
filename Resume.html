@@ -1,0 +1,318 @@
+<!-- this file is resume builder -->
+ <!-- resume html + resume styling -->
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <style>
+         @font-face {
+            font-family: myfont;
+            src: url(39a2c7f346d5cfae7045aeb2fb50d9ad.ttf);
+        }
+        *{
+            margin:0;
+           padding: 0;
+
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: #01f9c6;
+            font-family: luloclea;
+        }
+        h1{
+            letter-spacing: 4px;
+        }
+        .back{
+            width: 100%;
+            height: 13vh;
+            background-color: transparent;
+        }
+        .back svg{
+              width: 50px;
+              height: 50px;
+              left: 40%;
+              color: black;
+              padding:20px;
+              margin:20px 0px 50px 20px;
+              border-radius: 3px;
+        }
+        .resume_{
+            width: 100%;
+            height: 20vh;
+            position:absolute;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            top: 15%;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+        }
+        .resume_ h1{
+            font-size: 60px;
+            text-transform: capitalize;
+            letter-spacing: 5px;
+            border: 10px solid;
+            margin: 20px 40px;
+            padding: 40px 300px;
+            border-color: black;
+            border-style: solid;
+        }
+        .character{
+            width: 100%;
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            background-color: transparent;
+            padding :20px 0;
+        }
+        .character h1{
+            font-size: 30px;
+           
+           
+        }
+        .character .title{
+            font-size:18px;
+        
+        }
+        hr {
+            width: 70%;
+            height: 3px;
+            background-color: #000000;
+            border: none;
+            margin-top: 70px;
+            margin-bottom: 0;
+            padding: 0;
+            border: none;
+        }
+        .character .para{
+            text-align: center;
+            width: 60%;
+            font-size: 20px;
+         
+        }
+        .education{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: transparent;
+        }
+        .education p{
+           
+            text-align: justify;
+            width: 60%;
+            font-size: 20px;
+            
+        }
+        .education p span{
+            font-weight: bold;
+            font-size: 23px;
+            text-align: justify;
+        }
+
+        .exper {
+            width: 100%;
+            display: flex;
+            margin-top: 0;
+            border: 0;
+            padding: 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: transparent;
+        }
+        .exper p{
+            text-align: justify;
+            width: 70%;
+            font-size: 20px;
+        }
+        .exper p span{
+            font-weight: bold;
+            font-size: 23px;
+            text-align: justify;
+        }
+        .exper h1{
+            margin-top: 70px;
+        }
+        .skills{
+             width: 100%;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             font-size: 22px;
+             gap: 25px;
+             background-color: transparent;
+        }
+        .skills h1{
+            margin-top: 70px;
+        }
+        .skills ul{
+            width: 60% ;
+            text-align: center;
+        }
+        .skills ul li{
+            list-style: square;
+            text-align: justify;
+            transform: translateX(400px);
+        }
+        .project{
+            width: 100%;
+            display: flex;
+            margin-top: 0;
+            border: 0;
+            padding: 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: transparent;
+        }
+        .project p{
+            text-align: justify;
+            width: 70%;
+            font-size: 20px;
+        }
+        .project p span{
+            font-weight: bold;
+            font-size: 23px;
+            text-align: justify;
+        }
+        .project h1{
+            margin-top: 70px;
+        }
+        .project button{
+            width: 170px;
+            height: 55px;
+             background-color: #000000;
+             font-size: 22px;
+             color: #ffffff;
+        }
+
+        button:hover{
+             background-color: #0fb997;
+        }
+        .end{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+        }
+        .end_ {
+            width: 200px;
+            height: 55px;
+            background-color: #000000;
+            text-align: center;
+            color: #ffffff;
+            font-size: 20px;
+        }
+    </style>
+  </head>
+  <body>
+         <!-- path to visit home page -->
+        <div class="back">
+            <a href="structure.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg></a>
+
+        </div>
+        <!-- resume heading -->
+         <div class="resume_">
+            <h1>RESUME</h1>
+         </div>
+         <!-- about me -->
+         <div class="character">
+            <h1>About Me</h1>
+            <p class="title">Nust | Software Engineering | Front-end Developer</p>
+            <p class="para">
+                I am student of software engineering at Nust and love to code. Beside my academic activities, I always curious 
+                to know more about technology and nuclear power. Inspired to learn variant cultures and love travelling. 
+            </p>
+            <hr>
+         </div>
+         <!-- qualifictaion -->
+
+          <div class="education">
+                 <h1>Academic Qualifictaion</h1>
+                
+                <p><span>Matriculation </span>    90.72% - Rawalpindi Board (2017 - 2019)</p>
+            
+            
+           
+                <p><span>Intermediate of Science (ISC) </span>     96% - Rawalpindi Board (2019 - 2021)</p>
+            
+            
+              
+                <p><span>Bachelors in Software Engineering </span>    CGPA: 3.25 - NUST (2022 - 2026)</p>
+             <hr>
+        </div>
+  
+          </div>
+         <!-- work experience -->
+          <div class="exper">
+            <h1>Work Experience</h1>
+            <p><span>Prodigy Infotech</span><br>
+                I completed a four-week remote internship at Prodigy Infotech as a web developer. During this internship, I gained valuable knowledge and skills that are essential for any coder. 
+                I worked on several exciting projects including responsive page landing, stopwatch web application, weather web application, tic-tac-toe web application,
+                among all of these my favorites being the creation of a portfolio website, which is straightforward, but proved to be highly rewarding.
+                I particularly enjoyed implementing animation effects on websites,
+                which enhanced the user experience and added a dynamic element to the projects.  
+            <p><span>Code Alpha</span><br>
+                I completed a four-week remote internship at Code Alpha as a Python programmer. During this internship, 
+                I gained valuable knowledge and skills that are essential for any coder. I worked on several exciting projects,
+                including developing automation scripts, building web applications, and performing data analysis. 
+                These projects provided me with hands-on experience in applying Python to solve real-world problems.
+                Overall, my time at Code Alpha was highly productive and enjoyable. It allowed me to apply theoretical knowledge in 
+                practical scenarios, deepened my programming expertise, and provided a solid foundation for my future career in software development.
+            </p>
+            <hr>
+          </div>
+          <!-- technical skills -->
+          <div class="skills">
+            <h1>Technical Skills</h1>
+            <ul>
+                <li>Html</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>gsap library</li>
+                <li>C/C++</li>
+                <li>java</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+
+            </ul>
+            <hr>
+          </div>
+           <div class="project">
+            <h1>Projects</h1>
+            <p><span>Search Engine</span><br> 
+                Developed a search engine for a Data Structures and Algorithms semester project, 
+                leveraging C++ for backend processing and Python for scripting. 
+                Integrated key concepts such as efficient database management, advanced word parsing, 
+                and optimized page loading to enhance search speed and accuracy. 
+                Designed a responsive and user-friendly interface using HTML and CSS. 
+                This project showcases a strong understanding of DSA principles and their practical application in building 
+                efficient and user-centric software solutions.
+            </p>
+            <p><span>IT Factory database</span>
+                Developed a comprehensive database management system for an IT factory as a semester project in 
+                Database Systems. This project involved designing and implementing a real-world database to store and manage all factory activities, ensuring efficient data handling and retrieval. Utilized SQL for robust database creation and manipulation, and employed HTML, CSS, and JavaScript to develop a user-friendly frontend interface. The backend was engineered to seamlessly integrate with the frontend, providing a smooth and responsive user experience. This project demonstrates 
+                a solid grasp of database principles and the ability to create functional, real-world applications.</p>
+               <button>More Projects</button>
+               <hr>
+           </div>
+           <div class="end">
+            <button class="end_">Download Resume</button>
+           </div>
+  </body>
+  </html>

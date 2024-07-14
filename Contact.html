@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+         @font-face {
+            font-family: myfont;
+            src: url(39a2c7f346d5cfae7045aeb2fb50d9ad.ttf);
+        }
+        *{
+            top: 0;
+            padding: 0;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            font-family: myfont;
+            background-color: #01f9c6;
+        }
+        .back{
+            width: 100%;
+            height: 13vh;
+            background-color: transparent;
+        }
+        .back svg{
+              width: 50px;
+              height: 50px;
+              left: 40%;
+              color: black;
+              padding:20px;
+              margin:20px 0px 50px 20px;
+              border-radius: 3px;
+        }
+        .contact{
+            width: 100%;
+            height: 20vh;
+            position:absolute;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            top: 15%;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+        }
+        .contact h1{
+            font-size: 50px;
+           
+            letter-spacing: 5px;
+            border: 10px solid;
+            margin: 10px 30px;
+            padding: 30px 200px;
+            border-color: black;
+            border-style: solid;
+        }
+        .msg_ {
+            position: absolute;
+            display: flex;
+            margin-left: 300px;
+            top: 50%;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: flex-start;
+            align-items: end;
+            width: 80%;
+            transform: translateX(150px);
+        }
+        .msg_ div {
+
+            display: flex;
+            
+            justify-content: center;
+            flex-direction: column;
+            width: calc(50% - 200px);
+        }
+        .msg_ label {
+            font-size: 14px;
+            margin-bottom: 5px;
+         
+        }
+        .msg_ input, .msg_ textarea {
+            padding: 10px;
+            font-size: 19px;
+            width: 280px;
+            border: 2px solid black;
+            
+            border-radius: none;
+            background-color: transparent;
+        }
+        .msg_ textarea {
+            width: 700px;
+            height: 200px;
+            resize: none;
+            
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 30%;
+            margin-right: 80%;
+            margin-left: 5%;
+            margin-bottom: 30px;
+            background-color: transparent;
+            
+        }
+        .icons a {
+            color: black;
+            font-size: 30px;
+            text-decoration: none;
+            
+        }
+       
+        .end_ {
+
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            transform:translateY(150px);
+           
+        }
+        .end{
+            width: 200px;
+            height: 55px;
+            background-color: #000000;
+            justify-content: center;
+            text-align: center;
+            color: #ffffff;
+            font-size: 20px;
+        }
+        button:hover{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <a href="structure.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg></a>
+
+    </div>
+    <div class="contact">
+        <div class="title"><h1>Get In Touch</h1></div>
+    </div>
+    <div class="icons">
+        <a href="https://www.facebook.com/rabia.ijaz.7737/" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="https://github.com/Muqadas2" class="fa fa-github"></a>
+        <a href="www.linkedin.com/in/muqadas-zahra-404891283" class="fa fa-linkedin"></a>
+    </div>
+    <div class="msg_">
+        <div>
+            <label for="">First Name</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label for="">Last Name</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label for="">Subject</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label for="">Message</label>
+            <textarea name="" id=""></textarea>
+        </div>
+    </div>
+    <div class="end_">
+        <br>
+        <br>
+        <br>
+        <br>
+        <button class="end">Submit</button>
+    </div>
+ 
+</body>
+</html>
